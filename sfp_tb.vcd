@@ -1,0 +1,609 @@
+$date
+	Tue Sep 27 18:42:02 2022
+$end
+$version
+	QuestaSim Version 2021.3
+$end
+$timescale
+	1ns
+$end
+
+$scope module sfp_tb $end
+$var parameter 32 ! bw $end
+$var parameter 32 " psum_bw $end
+$var reg 1 # clk $end
+$var wire 1 $ out [15] $end
+$var wire 1 % out [14] $end
+$var wire 1 & out [13] $end
+$var wire 1 ' out [12] $end
+$var wire 1 ( out [11] $end
+$var wire 1 ) out [10] $end
+$var wire 1 * out [9] $end
+$var wire 1 + out [8] $end
+$var wire 1 , out [7] $end
+$var wire 1 - out [6] $end
+$var wire 1 . out [5] $end
+$var wire 1 / out [4] $end
+$var wire 1 0 out [3] $end
+$var wire 1 1 out [2] $end
+$var wire 1 2 out [1] $end
+$var wire 1 3 out [0] $end
+$var reg 8 4 in [7:0] $end
+$var reg 16 5 thres [15:0] $end
+$var reg 1 6 relu $end
+$var reg 1 7 acc $end
+$var reg 1 8 reset $end
+$var integer 32 9 in_file $end
+$var integer 32 : in_scan_file $end
+$var integer 32 ; in_dec $end
+$var integer 32 < i $end
+$var integer 32 = u $end
+
+$scope function dec2bin $end
+$var reg 8 > dec2bin [7:0] $end
+$var integer 32 ? weight $end
+$upscope $end
+
+$scope module sfp_instance $end
+$var parameter 32 @ bw $end
+$var parameter 32 A psum_bw $end
+$var wire 1 B clk $end
+$var wire 1 C acc $end
+$var wire 1 D relu $end
+$var wire 1 E reset $end
+$var wire 1 F in [7] $end
+$var wire 1 G in [6] $end
+$var wire 1 H in [5] $end
+$var wire 1 I in [4] $end
+$var wire 1 J in [3] $end
+$var wire 1 K in [2] $end
+$var wire 1 L in [1] $end
+$var wire 1 M in [0] $end
+$var wire 1 N thres [15] $end
+$var wire 1 O thres [14] $end
+$var wire 1 P thres [13] $end
+$var wire 1 Q thres [12] $end
+$var wire 1 R thres [11] $end
+$var wire 1 S thres [10] $end
+$var wire 1 T thres [9] $end
+$var wire 1 U thres [8] $end
+$var wire 1 V thres [7] $end
+$var wire 1 W thres [6] $end
+$var wire 1 X thres [5] $end
+$var wire 1 Y thres [4] $end
+$var wire 1 Z thres [3] $end
+$var wire 1 [ thres [2] $end
+$var wire 1 \ thres [1] $end
+$var wire 1 ] thres [0] $end
+$var wire 1 $ out [15] $end
+$var wire 1 % out [14] $end
+$var wire 1 & out [13] $end
+$var wire 1 ' out [12] $end
+$var wire 1 ( out [11] $end
+$var wire 1 ) out [10] $end
+$var wire 1 * out [9] $end
+$var wire 1 + out [8] $end
+$var wire 1 , out [7] $end
+$var wire 1 - out [6] $end
+$var wire 1 . out [5] $end
+$var wire 1 / out [4] $end
+$var wire 1 0 out [3] $end
+$var wire 1 1 out [2] $end
+$var wire 1 2 out [1] $end
+$var wire 1 3 out [0] $end
+$var reg 16 ^ psum_q [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+bx 4
+bx 5
+x6
+x7
+x8
+bx >
+bx ^
+b1000 !
+b10000 "
+b1000 @
+b10000 A
+b10000000000000000000000000000011 9
+bx :
+bx ;
+bx <
+bx =
+bx ?
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+xE
+0B
+xD
+xC
+x]
+x\
+x[
+xZ
+xY
+xX
+xW
+xV
+xU
+xT
+xS
+xR
+xQ
+xP
+xO
+xN
+xM
+xL
+xK
+xJ
+xI
+xH
+xG
+xF
+$end
+#1
+18
+06
+07
+1E
+0D
+0C
+#2
+1#
+1B
+b0 ^
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#3
+0#
+0B
+#4
+1#
+1B
+#5
+0#
+08
+b0 <
+0E
+0B
+#6
+1#
+1B
+#7
+0#
+17
+b1000000 5
+b11111111111111111111111110000000 ;
+b1 :
+b11111111111111111111111110000000 ?
+b1xxxxxxx >
+b0 ?
+b110 =
+b10xxxxxx >
+b101 =
+b100xxxxx >
+b100 =
+b1000xxxx >
+b11 =
+b10000xxx >
+b10 =
+b100000xx >
+b1 =
+b1000000x >
+b0 =
+b10000000 >
+b11111111111111111111111111111111 =
+b10000000 4
+b1 <
+1C
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+1F
+0]
+0\
+0[
+0Z
+0Y
+0X
+1W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0B
+#8
+1#
+1B
+b1111111110000000 ^
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#9
+0#
+b100011 ;
+b100011 ?
+b0 >
+b110 =
+b101 =
+b100000 >
+b11 ?
+b100 =
+b11 =
+b10 =
+b1 =
+b100010 >
+b1 ?
+b0 =
+b100011 >
+b0 ?
+b11111111111111111111111111111111 =
+b100011 4
+b10 <
+1M
+1L
+1H
+0F
+0B
+#10
+1#
+1B
+b1111111110100011 ^
+13
+12
+1.
+#11
+0#
+b11111111111111111111111111111011 ;
+b11111111111111111111111111111011 ?
+b10100011 >
+b1111011 ?
+b110 =
+b11100011 >
+b111011 ?
+b101 =
+b11011 ?
+b100 =
+b11110011 >
+b1011 ?
+b11 =
+b11111011 >
+b11 ?
+b10 =
+b1 =
+b1 ?
+b0 =
+b0 ?
+b11111111111111111111111111111111 =
+b11111011 4
+b11 <
+1J
+1I
+1G
+1F
+0B
+#12
+1#
+1B
+b1111111110011110 ^
+03
+11
+10
+1/
+0.
+#13
+0#
+b1000000 ;
+b1000000 ?
+b1111011 >
+b110 =
+b0 ?
+b101 =
+b1011011 >
+b100 =
+b1001011 >
+b11 =
+b1000011 >
+b10 =
+b1 =
+b1000001 >
+b0 =
+b1000000 >
+b11111111111111111111111111111111 =
+b1000000 4
+b100 <
+0M
+0L
+0J
+0I
+0H
+0F
+0B
+#14
+1#
+1B
+b1111111111011110 ^
+1-
+#15
+0#
+b1000000 ?
+b110 =
+b0 ?
+b101 =
+b100 =
+b11 =
+b10 =
+b1 =
+b0 =
+b11111111111111111111111111111111 =
+b101 <
+0B
+#16
+1#
+1B
+b11110 ^
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#17
+0#
+b11111111111111111111111110011011 ;
+b11111111111111111111111110011011 ?
+b11000000 >
+b11011 ?
+b110 =
+b10000000 >
+b101 =
+b100 =
+b10010000 >
+b1011 ?
+b11 =
+b10011000 >
+b11 ?
+b10 =
+b1 =
+b10011010 >
+b1 ?
+b0 =
+b10011011 >
+b0 ?
+b11111111111111111111111111111111 =
+b10011011 4
+b110 <
+1M
+1L
+1J
+1I
+0G
+1F
+0B
+#18
+1#
+1B
+b1111111110111001 ^
+13
+02
+01
+1.
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#19
+0#
+b1010 ;
+b1010 ?
+b11011 >
+b110 =
+b101 =
+b100 =
+b1011 >
+b11 =
+b10 ?
+b10 =
+b1 =
+b0 ?
+b0 =
+b1010 >
+b11111111111111111111111111111111 =
+b1010 4
+b111 <
+0M
+0I
+0F
+0B
+#20
+1#
+1B
+b1111111111000011 ^
+12
+00
+0/
+0.
+1-
+#21
+0#
+b101001 ;
+b101001 ?
+b110 =
+b101 =
+b101010 >
+b1001 ?
+b100 =
+b11 =
+b1 ?
+b10 =
+b1 =
+b101000 >
+b0 =
+b101001 >
+b0 ?
+b11111111111111111111111111111111 =
+b101001 4
+b1000 <
+1M
+0L
+1H
+0B
+#22
+1#
+1B
+b1111111111101100 ^
+03
+02
+11
+10
+1.
+#23
+0#
+b11111111111111111111111111111010 ;
+b11111111111111111111111111111010 ?
+b10101001 >
+b1111010 ?
+b110 =
+b11101001 >
+b111010 ?
+b101 =
+b11010 ?
+b100 =
+b11111001 >
+b1010 ?
+b11 =
+b10 ?
+b10 =
+b1 =
+b11111011 >
+b0 ?
+b0 =
+b11111010 >
+b11111111111111111111111111111111 =
+b11111010 4
+b1001 <
+0M
+1L
+1I
+1G
+1F
+0B
+#24
+1#
+1B
+b1111111111100110 ^
+12
+00
+#25
+0#
+b11111111111111111111111111111100 ;
+b11111111111111111111111111111100 ?
+b1111100 ?
+b110 =
+b111100 ?
+b101 =
+b11100 ?
+b100 =
+b1100 ?
+b11 =
+b100 ?
+b10 =
+b11111110 >
+b0 ?
+b1 =
+b11111100 >
+b0 =
+b11111111111111111111111111111111 =
+b11111100 4
+b1010 <
+0L
+1K
+0B
+#26
+1#
+1B
+b1111111111100010 ^
+01
+#27
+0#
+07
+16
+0C
+1D
+0B
+#28
+1#
+1B
+b0 ^
+02
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#29
+0#
+0B
